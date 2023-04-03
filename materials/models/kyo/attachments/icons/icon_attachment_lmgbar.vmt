@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/kyo/attachments/icons/lmgbar"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$translucent" "1"
+}

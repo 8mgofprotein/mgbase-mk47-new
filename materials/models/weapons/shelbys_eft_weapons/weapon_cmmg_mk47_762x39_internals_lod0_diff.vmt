@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 				"models/weapons/shelbys_eft_weapons/weapon_cmmg_mk47_762x39_internals_LOD0_diff"
+	"$bumpmap" 					"models/weapons/shelbys_eft_weapons/weapon_cmmg_mk47_762x39_internals_LOD0_nrm"
+	"$phongexponenttexture" 	"models/weapons/shelbys_eft_weapons/weapon_cmmg_mk47_762x39_internals_LOD0_gloss"
+	"$phong" "1"
+	"$color2" "[ .55 .55 .55 ]"
+	"$phongboost" "1"
+	"$phongwarptexture" "phongwarp_steel"
+	"$phongexponent" "24"
+	"$phongalbedotint" "2"
+	"$PhongFresnelRanges" "[ 4 1 10 ]"
+	"$envmap" "env_cubemap"
+	"$basemapalphaenvmapmask" "1"
+	"$envmapfresnel" "0.01"
+	"$envmaptint" "[ .01 .01 .01 ]"
+	"Proxies"
+	{
+		"MwEnvMapTint"
+		{
+			"min" "0"
+			"max" "0.005"
+		}
+	}
+}

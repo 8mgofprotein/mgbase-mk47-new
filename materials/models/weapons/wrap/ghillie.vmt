@@ -1,0 +1,15 @@
+
+"VertexlitGeneric"
+{
+	"$basetexture" "Weapons/Rifles/CODMWR/M21/wpn_h1_sni_m21_ghillie_mesh_col"
+	"$bumpmap"   "Weapons/Rifles/CODMWR/M21/wpn_h1_sni_m21_ghillie_mesh_nml" 
+	
+		"$cloakPassEnabled" 		"1"				
+	"$nocull" "1"
+
+	"$alphatest"	"1"
+	"$alphatestreference"	"0.6"
+}
+
+
+
