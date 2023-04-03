@@ -1,6 +1,5 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "CMMG 9'' Barrel"
-ATTACHMENT.Icon = Material("models/kyo/attachments/icons/icon_attachment_barshort.vmt")
 ATTACHMENT.Model = Model("models/kyo/attachment_vm_ar_mutant_cmmg9.mdl")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)

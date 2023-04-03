@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 				"models/weapons/shelbys_eft_weapons/mag_ak_magpul_pmag_30_ak_akm_gen_m3_762x39_30_LOD0_diff"
+	"$bumpmap" 					"models/weapons/shelbys_eft_weapons/mag_ak_magpul_pmag_30_ak_akm_gen_m3_762x39_30_LOD0_nrm"
+	"$phongexponenttexture" 	"models/weapons/shelbys_eft_weapons/mag_ak_magpul_pmag_30_ak_akm_gen_m3_762x39_30_LOD0_gloss"
+	"$phong" "1"						
+	"$phongboost"	"1" 		
+	"$phongfresnelranges"	"[.6 1.02 2.15]"				
+	"$PhongAlbedoTint" "0"
+
+}

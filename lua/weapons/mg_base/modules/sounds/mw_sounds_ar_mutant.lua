@@ -5,8 +5,8 @@ AddCSLuaFile()
 sound.Add({
     name =           "mw19.mutant.fire",
     channel =        CHAN_WEAPON,
-    level = 145	,
-    volume =         14,
+    level = 90	,
+    volume =         7,
     pitch = {100,100},
     sound = {"zeron/weapons/mutant/weap_akilo_fire_plr_shot_01.wav"
             }              
@@ -22,7 +22,7 @@ sound.Add({
 sound.Add({
     name =            "Atmo_Mutant.Outside",
     channel =        CHAN_ATMO,
- volume =      1.5,
+ volume =      1.2,
     sound = {"zeron/weapons/mutant/weap_ar9_fire_plr_atmo_ext1_01.wav"}
 })
 sound.Add({

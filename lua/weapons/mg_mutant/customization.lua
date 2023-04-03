@@ -1,5 +1,4 @@
 AddCSLuaFile()
-AddCSLuaFile()
 
 function SWEP:doSuppressorStats()
     self.Primary.Sound = Sound("mw19.mutant.fire.suppressed")
@@ -33,10 +32,10 @@ SWEP.Customization = {
 	"attachment_vm_ar_mutant_xmag", "attachment_vm_ar_mutant_pmagbanana", 
 	"attachment_vm_ar_mutant_cmag", "attachment_vm_ar_mutant_cbmag", "attachment_vm_ar_mutant_bmag", 
 	"attachment_vm_ar_mutant_dmag", "attachment_vm_ar_mutant_smgmag", "attachment_vm_ar_mutant_smgmag_v6", "attachment_vm_ar_mutant_xmag45", 
-	"attachment_vm_ar_mutant_xmags", "attachment_vm_ar_mutant_xmagslrg", "attachment_vm_ar_mutant_dmag","attachment_vm_ar_mutant_dmag50",
+	"attachment_vm_ar_mutant_xmags", "attachment_vm_ar_mutant_xmagslrg", "attachment_vm_ar_mutant_dmag50",
 	"attachment_vm_ar_mutant_xmagslrg60casket","attachment_vm_ar_galima_smag","attachment_vm_ar_galima_xmag" },	
 
-   -- {"att_skin_mutant", "attachment_vm_ar_mutant_mwgold_skin"}, 
+    {"att_skin_mutant", "attachment_vm_ar_mutant_desert_skin", "attachment_vm_ar_mutant_polya_skin", "attachment_vm_ar_mutant_redtopo_skin", "attachment_vm_ar_mutant_strikerred_skin",  "attachment_vm_ar_mutant_plat_skin", "attachment_vm_ar_mutant_nebula_skin", "attachment_vm_ar_mutant_lava_skin", "attachment_vm_ar_mutant_mwgold_skin", "attachment_vm_ar_mutant_rainbow_skin"},  
    
     {"att_bolt", "attachment_vm_ar_mutant_manualbolt"}, 
 

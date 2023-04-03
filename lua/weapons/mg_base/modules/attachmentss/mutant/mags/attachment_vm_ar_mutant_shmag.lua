@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "12 Gauge 10rnd Magazine"
 ATTACHMENT.Model = Model("models/zeron/attachment_vm_ar_mk47_shmag.mdl")
-ATTACHMENT.Icon = Material("models/kyo/attachments/icons/icon_attachment_shotgunmag.vmt")
+
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)

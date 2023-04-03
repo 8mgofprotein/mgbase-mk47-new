@@ -1,6 +1,6 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "Carbine KAC RIS"
-ATTACHMENT.Icon = Material("models/kyo/attachments/icons/icon_attachment_carbinebar.vmt")
+ATTACHMENT.Icon = Material("viper/mw/attachments/icons/galima/icon_attachment_ar_galima_barshort.vmt")
 ATTACHMENT.Model = Model("models/kyo/attachment_vm_ar_mutant_carbine.mdl")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
