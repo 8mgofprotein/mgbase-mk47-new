@@ -38,7 +38,7 @@ SWEP.Primary.BurstRounds = 1
 SWEP.Primary.BurstDelay = 0
 SWEP.Primary.RPM = 650  
 SWEP.CanChamberRound = true  
-SWEP.ReloadRechambers = false
+
 SWEP.ParticleEffects = {
     ["MuzzleFlash"] = "AC_muzzle_rifle",
     ["MuzzleFlash_Suppressed"] = "AC_muzzle_pistol_suppressed",

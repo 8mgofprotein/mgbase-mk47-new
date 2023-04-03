@@ -493,7 +493,7 @@ SWEP.Animations = {
             {Time = 4.3, Callback = function(self) self:EnableGrip() end},
         }
     },
-    ["Rechamber"] = {
+    ["Bolt"] = {
         Sequences = {"boltpull"},
         Length = 1,
         Fps = 30,
