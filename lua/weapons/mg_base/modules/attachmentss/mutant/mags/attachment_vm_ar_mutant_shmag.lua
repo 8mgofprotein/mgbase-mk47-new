@@ -13,8 +13,8 @@ function ATTACHMENT:Stats(weapon)
 		weapon.Primary.RPM = 400
 		weapon.Bullet.Damage[1] = weapon.Bullet.Damage[1] * 2
 		weapon.Bullet.Damage[2] = weapon.Bullet.Damage[2] * 0.8
-		weapon.Cone.Ads = weapon.Cone.Ads * 2
-		weapon.Cone.Hip = weapon.Cone.Ads * 2
+		weapon.Cone.Ads = weapon.Cone.Ads * 4.8
+		weapon.Cone.Hip = weapon.Cone.Hip * 3.5
 		weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 0.4
 		weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 0.4
 	    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.85
