@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_stock"
 ATTACHMENT.Name = "Magpul PRS Gen 3"
 ATTACHMENT.Model = Model("models/zeron/attachment_vm_ar_mutant_stock_prs.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/stock/icon_attachment_stock_no.vmt")
+ATTACHMENT.Icon = Material("models/kyo/attachments/icons/icon_attachment_gen3prs.vmt")
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
