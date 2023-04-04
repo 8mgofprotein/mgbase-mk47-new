@@ -3,7 +3,12 @@ ATTACHMENT.Name = "5.45x39mm 30-Round Mags"
 ATTACHMENT.Model = Model("models/viper/mw/attachments/akilo47/attachment_vm_ar_akilo47_smgmag.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/akilo47/icon_attachment_smgmag_akilo47.vmt")
 
-
+ATTACHMENT.BulletList = {
+	[1] = {"j_ammo1"},
+	[2] = {"j_ammo2"},
+	[3] = {"j_ammo3"},
+	[4] = {"j_ammo4"},
+}
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)

@@ -2,7 +2,11 @@ ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "75rnd Fast Drum"
 ATTACHMENT.Model = Model("models/viper/mw/attachments/akilo47/attachment_vm_ar_akilo47_drum_mag.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/akilo47/icon_attachment_drums_akilo47.vmt")
-
+ATTACHMENT.BulletList = {
+	[1] = {"j_drumbullet1"},
+	[2] = {"j_drumbullet2"},
+	[2] = {"j_drumbullet3"},
+}
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)

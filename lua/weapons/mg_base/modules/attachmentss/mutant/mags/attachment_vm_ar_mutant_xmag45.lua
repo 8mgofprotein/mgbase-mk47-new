@@ -2,7 +2,12 @@ ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "45rnd Fast Mag"
 ATTACHMENT.Model = Model("models/viper/mw/attachments/attachment_vm_ar_anov94_xmags.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/anovember94/icon_attachment_ar_anov94_xmags.vmt")
-
+ATTACHMENT.BulletList = {
+	[1] = {"j_bullet01"},
+	[2] = {"j_bullet02"},
+	[3] = {"j_bullet03"},
+	[4] = {"j_bullet04"},
+}
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)

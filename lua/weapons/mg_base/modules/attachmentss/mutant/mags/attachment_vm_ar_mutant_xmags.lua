@@ -3,6 +3,8 @@ ATTACHMENT.Name = "50 Fast Mags"
 ATTACHMENT.Model = Model("models/viper/mw/attachments/sierra552/attachment_vm_ar_sierra552_xmags.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/sierra552/icon_attachment_ar_sierra552_xmags.vmt")
 ATTACHMENT.BulletList = {
+	[1] = {"j_bullet1"},
+	[2] = {"j_bullet3"},
     [60] = {"j_bullet2"},
     [100] = {"j_bullet2"},
 }

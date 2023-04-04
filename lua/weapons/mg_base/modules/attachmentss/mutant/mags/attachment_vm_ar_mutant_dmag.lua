@@ -2,7 +2,10 @@ ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "Promag 73rnd Drum"
 ATTACHMENT.Model = Model("models/zeron/attachment_vm_ar_mk47_dmag.mdl")
 ATTACHMENT.Icon = Material("models/kyo/attachments/icons/icon_attachment_73drumpro.vmt")
-
+ATTACHMENT.BulletList = {
+	[1] = {"j_bullet"},
+	[2] = {"j_bullet2"},
+}
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
