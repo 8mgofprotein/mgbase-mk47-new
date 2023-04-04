@@ -1,6 +1,7 @@
 ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "Promag 73rnd Drum"
 ATTACHMENT.Model = Model("models/zeron/attachment_vm_ar_mk47_dmag.mdl")
+ATTACHMENT.Icon = Material("models/kyo/attachments/icons/icon_attachment_73drumpro.vmt")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)

@@ -1,8 +1,7 @@
 ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "Overpressured 10rnd Mag"
 ATTACHMENT.Model = Model("models/zeron/attachment_vm_ar_mk47_dmrmag.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/galima/icon_attachment_ar_galima_smag.vmt")
-
+ATTACHMENT.Icon = Material("models/kyo/attachments/icons/icon_attachment_10rndoverpressoredmag.vmt")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)

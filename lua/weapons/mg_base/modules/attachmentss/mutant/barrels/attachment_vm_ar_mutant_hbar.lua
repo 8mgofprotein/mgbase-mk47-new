@@ -1,6 +1,6 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "Custom Heavy Barrel"
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/galima/icon_attachment_ar_galima_barshort.vmt")
+ATTACHMENT.Icon = Material("viper/mw/attachments/icons/galima/icon_attachment_mutantghillie.vmt")
 ATTACHMENT.Model = Model("models/kyo/attachment_vm_ar_mutant_hbar.mdl")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)

@@ -1,6 +1,7 @@
 ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "Bakelite 40rnd Mag"
 ATTACHMENT.Model = Model("models/zeron/attachment_vm_ar_mk47_xmag.mdl")
+ATTACHMENT.Icon = Material("models/kyo/attachments/icons/icon_attachment_akxmag.vmt")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)

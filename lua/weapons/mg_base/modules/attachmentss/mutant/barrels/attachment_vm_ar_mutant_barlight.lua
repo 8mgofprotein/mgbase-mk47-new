@@ -1,6 +1,6 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "KAC URX"
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/galima/icon_attachment_ar_galima_barshort.vmt")
+ATTACHMENT.Icon = Material("viper/mw/attachments/icons/galima/icon_attachment_urxbar.vmt")
 ATTACHMENT.Model = Model("models/kyo/attachment_vm_ar_mutant_urx145.mdl")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)

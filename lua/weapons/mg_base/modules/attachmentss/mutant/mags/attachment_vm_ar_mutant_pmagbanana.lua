@@ -1,5 +1,6 @@
 ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "Banana PMAG"
+("models/kyo/attachments/icons/icon_attachment_pmag.vmt")
 ATTACHMENT.Model = Model("models/zeron/attachment_vm_ar_mk47_pmag.mdl")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
