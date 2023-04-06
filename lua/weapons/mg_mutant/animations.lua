@@ -477,6 +477,22 @@ SWEP.Animations = {
             {Time = 4.3, Callback = function(self) self:EnableGrip() end},
         }
     },
+	
+	["InspectOld"] = {
+        Sequences = {"inspect"},
+        Length = 5,
+        Fps = 30,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 4.2, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_ar_galima_inspect_05")) end},
+            {Time = 3.467, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_ar_galima_inspect_04")) end},
+            {Time = 0.033, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_ar_galima_inspect_01")) end},
+            {Time = 2.433, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_ar_galima_inspect_03")) end},
+            {Time = 1.3, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_ar_galima_inspect_02")) end},
+            {Time = 0.133, Callback = function(self) self:DisableGrip() end},
+            {Time = 4.3, Callback = function(self) self:EnableGrip() end},
+        }
+    },
 
     ["Inspect_Drum"] = {
         Sequences = {"inspect_drum"},

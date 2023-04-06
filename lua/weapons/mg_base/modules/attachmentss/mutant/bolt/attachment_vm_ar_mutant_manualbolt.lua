@@ -7,7 +7,6 @@ function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
     weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 5
     weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 2.5
-	weapon.Animations.Rechamber = weapon.Animations.Bolt
     weapon.Animations.Reload_Empty = weapon.Animations.Reload                
     weapon.Animations.Reload_Empty_Xmag = weapon.Animations.Reload_Xmag
     weapon.Animations.reload_empty_smag = weapon.Animations.reload_smag
@@ -21,4 +20,9 @@ function ATTACHMENT:Stats(weapon)
         weapon.Primary.Automatic = false
         return "Firemode_Auto"
     end
+end
+
+function ATTACHMENT:PostProcess(weapon)
+    BaseClass.PostProcess(self, weapon)
+    weapon.Animations.Rechamber = weapon.Animations.Bolt
 end

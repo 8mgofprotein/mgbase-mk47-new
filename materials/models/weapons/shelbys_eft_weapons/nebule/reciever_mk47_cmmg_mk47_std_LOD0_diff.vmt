@@ -6,17 +6,11 @@
 	"$bumpmap" "models\weapons\shelbys_eft_weapons\reciever_mk47_cmmg_mk47_std_LOD0_n"
 	"$phongexponenttexture" "models\weapons\shelbys_eft_weapons\reciever_mk47_cmmg_mk47_std_LOD0_m"
 	"$color2" "[ 0 0 0 ]"
-	"$blendtintbybasealpha" "1"
+	"$blendtintbybasealpha" "0"
 	"$phong" "1"
-<<<<<<< Updated upstream
-	"$phongexponent" "24"
-	"$phongwarptexture" "models\weapons\shelbys_eft_weapons\spaceglow2"
-	"$phongboost" "42"
-=======
 	"$phongexponent" "5"
 	"$phongwarptexture" "models\weapons\shelbys_eft_weapons\spaceglow2"
 	"$phongboost" "72"
->>>>>>> Stashed changes
 	"$phongalbedotint" "2"
 	"$PhongFresnelRanges" "[ 4 1 10 ]"
 	"$envmap" "env_cubemap"

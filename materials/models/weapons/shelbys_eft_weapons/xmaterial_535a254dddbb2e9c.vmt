@@ -1,0 +1,39 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "models\weapons\shelbys_eft_weapons\xmaterial_535a254dddbb2e9c_rgb"
+    "$bumpmap" "models\weapons\shelbys_eft_weapons\xmaterial_535a254dddbb2e9c_n"
+    "$phongexponenttexture" "models\weapons\shelbys_eft_weapons\xmaterial_535a254dddbb2e9c_e"
+
+    "$color2" "[1 1 1]"
+    "$blendtintbybasealpha" "0"
+
+    "$phong" "1"
+    "$phongboost" "4"
+    "$phongexponent" "22"
+    "$phongfresnelranges" "[1 0.5 0]"
+    "$phongalbedotint" "0"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "0"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+
+    "$normalmapalphaenvmapmask" "1"
+    "$envmapfresnel" "1"
+    "$envmap" "env_cubemap"
+    "$envmaptint" "[0.2 0.2 0.2]"
+
+    //remove this if viewing outside of MWB
+    "Proxies"
+    {
+        "MwEnvMapTint"
+        {
+            "specularity" "0.5"             //0.25, 0.5, 0.75, 1
+            "min" "0"
+            "max" "0.02"                       //change this if too bright in game
+        }
+    }
+}

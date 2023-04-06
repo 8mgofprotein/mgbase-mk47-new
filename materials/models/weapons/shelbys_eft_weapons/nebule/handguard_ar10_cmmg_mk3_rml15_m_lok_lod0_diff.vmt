@@ -5,21 +5,12 @@
 	"$basetexture" "models\weapons\shelbys_eft_weapons\handguard_ar10_cmmg_mk3_rml15_m_lok_LOD0_diff_c"
 	"$bumpmap" "models\weapons\shelbys_eft_weapons\handguard_ar10_cmmg_mk3_rml15_m_lok_LOD0_diff_n"
 	"$phongexponenttexture" "models\weapons\shelbys_eft_weapons\handguard_ar10_cmmg_mk3_rml15_m_lok_LOD0_diff_m"
-<<<<<<< Updated upstream
-	"$color2" "[ 0 0 0  ]"
-	"$blendtintbybasealpha" "1"
-	"$phong" "1"
-	"$phongexponent" "24"
-	"$phongwarptexture" "models\weapons\shelbys_eft_weapons\spaceglow2"
-	"$phongboost" "42"
-=======
 	"$color2" "[ 0 0 0 ]"
-	"$blendtintbybasealpha" "1"
+	"$blendtintbybasealpha" "0"
 	"$phong" "1"
 	"$phongexponent" "5"
 	"$phongwarptexture" "models\weapons\shelbys_eft_weapons\spaceglow2"
 	"$phongboost" "72"
->>>>>>> Stashed changes
 	"$phongalbedotint" "2"
 	"$PhongFresnelRanges" "[ 4 1 10 ]"
 	"$envmap" "env_cubemap"
@@ -42,11 +33,7 @@
         {
             texturescrollvar $detailtexturetransform
             texturescrollrate .05
-<<<<<<< Updated upstream
-            texturescrollangle 30
-=======
             texturescrollangle 210
->>>>>>> Stashed changes
         }
     }
 
