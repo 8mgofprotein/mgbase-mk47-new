@@ -2,26 +2,43 @@
 // METALNESS: 211 GAMMA: 235
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/shelbys_eft_weapons/stock_ar15_cmmg_ripstock_micro_lod0_c"
-	"$bumpmap" "models/weapons/shelbys_eft_weapons/stock_ar15_cmmg_ripstock_micro_lod0_n"
+	"$basetexture" "models\weapons\shelbys_eft_weapons\lava2"
+	"$bumpmap" "models/weapons/shelbys_eft_weapons/lava2norm"
 	"$phongexponenttexture" "models/weapons/shelbys_eft_weapons/stock_ar15_cmmg_ripstock_micro_lod0_m"
-	"$color2" "[ .3 .3 .3 ]"
+	"$color2" "[ .8 .8 .8 ]"
 	"$blendtintbybasealpha" "1"
 	"$phong" "1"
-	"$phongboost" "18"
-	"$phongalbedotint" "1"
-	"$phongexponent" "26"
-	"$phongwarptexture" "models/weapons/shelbys_eft_weapons/phongwarp_steel"
+	"$phongexponent" "200"
+	"$phongboost" "1"
+	"$phongtint" "[ 1 .1 0 ]"
+	"$PhongFresnelRanges" "[ 4 1 10 ]"
 	"$envmap" "env_cubemap"
 	"$basemapalphaenvmapmask" "1"
-	"$envmapfresnel" "0.4"
-	"$envmaptint" "[ .1 .1 .1 ]"
+	"$envmapfresnel" "0.01"
+	"$envmaptint" "[ 1 .1 0 ]"
+	"$detail" "models\weapons\shelbys_eft_weapons\lava"
+	$emissiveblendenabled true
+
+
+              $detailscale 1
+                $detailblendmode 6
+                 $detailblendfactor 1
 	"Proxies"
-	{
-		"MwEnvMapTint"
-		{
-			"min" "0"
-			"max" "0.015"
+    {
+		Sine
+ 		{
+			resultVar	$detailblendfactor // The shader parameter to be manipulated
+			sineperiod	8
+			sinemin		0
+			sinemax		1
 		}
-	}
+				"MwEnvMapTint"
+		{
+		    "color"    "[1 .1 0]"
+            "envmap"    "viper/shared/envmaps/painted_silver.hdr"
+			"min" "0"
+			"max" "0.05"
+		}
+    }
+
 }

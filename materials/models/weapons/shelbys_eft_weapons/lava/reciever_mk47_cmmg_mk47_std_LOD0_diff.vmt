@@ -3,38 +3,42 @@
 "VertexLitGeneric"
 {
 	"$basetexture" "models\weapons\shelbys_eft_weapons\lava2"
-	"$bumpmap" "models\weapons\shelbys_eft_weapons\reciever_mk47_cmmg_mk47_std_LOD0_n"
+	"$bumpmap" "models\weapons\shelbys_eft_weapons\lava2norm"
 	"$phongexponenttexture" "models\weapons\shelbys_eft_weapons\reciever_mk47_cmmg_mk47_std_LOD0_m"
-	"$color2" "[ .8 .4 .4  ]"
+	"$color2" "[ .8 .8 .8 ]"
 	"$blendtintbybasealpha" "1"
 	"$phong" "1"
-	"$phongexponent" "24"
-	"$phongwarptexture" "models\weapons\shelbys_eft_weapons\lava"
-	"$phongboost" "142"
-	"$phongalbedotint" "2"
+	"$phongexponent" "200"
+	"$phongboost" "1"
+	"$phongtint" "[ 1 .1 0 ]"
 	"$PhongFresnelRanges" "[ 4 1 10 ]"
 	"$envmap" "env_cubemap"
 	"$basemapalphaenvmapmask" "1"
 	"$envmapfresnel" "0.01"
-	"$envmaptint" "[ .01 .01 .01 ]"
+	"$envmaptint" "[ 1 .1 0 ]"
 	"$detail" "models\weapons\shelbys_eft_weapons\lava"
 	$emissiveblendenabled true
 
-	"$selfillumtint" "[1 1 1]"
-	"$selfillum" "1"
-                $selfillummask "models\weapons\shelbys_eft_weapons\spaceglow"
 
               $detailscale 1
                 $detailblendmode 6
                  $detailblendfactor 1
 	"Proxies"
     {
-        TextureScroll
-        {
-            texturescrollvar $detailtexturetransform
-            texturescrollrate .02
-            texturescrollangle 45
-        }
+		Sine
+ 		{
+			resultVar	$detailblendfactor // The shader parameter to be manipulated
+			sineperiod	8
+			sinemin		0
+			sinemax		1
+		}
+				"MwEnvMapTint"
+		{
+		    "color"    "[1 .1 0]"
+            "envmap"    "viper/shared/envmaps/painted_silver.hdr"
+			"min" "0"
+			"max" "0.05"
+		}
     }
 
 }
