@@ -9,3 +9,8 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 1.2
     weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 1.2
 end
+
+function ATTACHMENT:PostProcess(weapon)
+    BaseClass.PostProcess(self, weapon)
+    weapon:SetViewModel("models/kyo/v_mutantraised.mdl")
+end
