@@ -2,43 +2,30 @@
 //https://developer.valvesoftware.com/wiki/$phong
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/shelbys_eft_weapons/spaceglowbase"
-    "$bumpmap" "models\weapons\shelbys_eft_weapons\xmaterial_68021d0af49c254_n"
+	"$basetexture" "models/weapons/shelbys_eft_weapons/polyatomic/polya2"
+	"$bumpmap" "models/weapons/shelbys_eft_weapons/polyatomic/polyanormal"
     "$phongexponenttexture" "models\weapons\shelbys_eft_weapons\xmaterial_68021d0af49c254_e"
 
-"$color2" "[ .2 .2 .2 ]"
+"$color2" "[ .85 .85 .85 ]"
 	"$blendtintbybasealpha" "0"
+	"$phongwarptexture" "models\weapons\shelbys_eft_weapons\polya"
 	"$phong" "1"
-	"$phongexponent" "5"
-	"$phongwarptexture" "models\weapons\shelbys_eft_weapons\spaceglow2"
-	"$phongboost" "172"
-	"$phongalbedotint" "2"
-	"$PhongFresnelRanges" "[ 4 1 10 ]"
-	"$envmap" "env_cubemap"
+	"$phongboost" "10"
+	"$phongexponent" "100"
+	"$phongalbedotint" "1"
+	"$PhongFresnelRanges" "[ 2 4 6 ]"
 	"$basemapalphaenvmapmask" "1"
-	"$envmapfresnel" "0.01"
-	"$envmaptint" "[ .01 .01 .01 ]"
-	"$selfillum" "1"
-	
-	"$detail" "models\weapons\shelbys_eft_weapons\spaceglow2"
-    "$detailblendmode" "6"
-    "$detailscale" "1"
-    "$detailblendfactor" "1"
+"$envmap"                    "env_cubemap"
+    "$envmapfresnel" "0.4"
+    "$envmaptint" "[ 0.65 0.45 0.105 ]"
 
-	Proxies  //pls donut stealz :sob:
- 	{
-		Sine
- 		{
-			resultVar	$detailblendfactor // The shader parameter to be manipulated
-			sineperiod	8.5
-			sinemin		0.2
-			sinemax		1
-		}
-		  TextureScroll
+    "Proxies"
+    {
+        "MwEnvMapTint"
         {
-            texturescrollvar $detailtexturetransform
-            texturescrollrate .05
-            texturescrollangle 210
-        }
-	}
-}
+            "color"    "[0.135 0 0.465]"
+            "envmap"    "viper/shared/envmaps/painted_silver.hdr"
+            "min" "0"
+            "max" "0.1"
+    }
+	}	

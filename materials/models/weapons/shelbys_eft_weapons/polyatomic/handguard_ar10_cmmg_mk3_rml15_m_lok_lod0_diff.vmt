@@ -2,14 +2,15 @@
 // METALNESS: 211 GAMMA: 235
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/shelbys_eft_weapons/polyatomic/polyawide"
-	"$bumpmap" "models/weapons/shelbys_eft_weapons/polyatomic/polyhandguardcmmg15"
+	"$basetexture" "models/weapons/shelbys_eft_weapons/polyatomic/polya"
+	"$bumpmap" "models/weapons/shelbys_eft_weapons/polyatomic/polyanormal"
 	"$phongexponenttexture" "models/weapons/shelbys_eft_weapons/polyatomic/blankforexpo"
 	"$color2" "[ .6 .6 .4 ]"
 	"$blendtintbybasealpha" "0"
+	"$phongwarptexture" "models\weapons\shelbys_eft_weapons\polya"
 	"$phong" "1"
-	"$phongboost" "15"
-	"$phongexponent" "15"
+	"$phongboost" "20"
+	"$phongexponent" "50"
 	"$phongalbedotint" "1"
 	"$PhongFresnelRanges" "[ 2 4 6 ]"
 	"$basemapalphaenvmapmask" "1"
@@ -26,3 +27,4 @@
             "min" "0"
             "max" "0.4"
     }
+	}

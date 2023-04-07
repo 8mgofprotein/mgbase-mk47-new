@@ -3,13 +3,14 @@
 "VertexLitGeneric"
 {
 	"$basetexture" "models/weapons/shelbys_eft_weapons/polyatomic/polya2"
-	"$bumpmap" "models/weapons/shelbys_eft_weapons/polyatomic/lowerpoly"
-	"$phongexponenttexture" "models/weapons/shelbys_eft_weapons/polyatomic/blankforexpo"
-	"$color2" "[ .6 .6 .6 ]"
+	"$bumpmap" "models/weapons/shelbys_eft_weapons/polyatomic/polyanormal"
+	"$phongexponenttexture" "models/weapons/shelbys_eft_weapons/polyatomic/weapon_cmmg_mk47_762x39_lod0_diff_m"
+		"$color2" "[ .85 .85 .85 ]"
 	"$blendtintbybasealpha" "0"
+	"$phongwarptexture" "models\weapons\shelbys_eft_weapons\polya"
 	"$phong" "1"
-	"$phongboost" "15"
-	"$phongexponent" "5"
+	"$phongboost" "10"
+	"$phongexponent" "100"
 	"$phongalbedotint" "1"
 	"$PhongFresnelRanges" "[ 2 4 6 ]"
 	"$basemapalphaenvmapmask" "1"
@@ -21,8 +22,9 @@
     {
         "MwEnvMapTint"
         {
-            "color"    "[0.135 0 0.435]"
+            "color"    "[0.135 0 0.465]"
             "envmap"    "viper/shared/envmaps/painted_silver.hdr"
             "min" "0"
-            "max" "0.5"
+            "max" "0.1"
     }
+	}
