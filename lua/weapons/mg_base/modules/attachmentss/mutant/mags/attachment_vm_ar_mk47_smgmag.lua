@@ -16,6 +16,7 @@ function ATTACHMENT:Stats(weapon)
     weapon.Recoil.Vertical[1] = weapon.Recoil.Vertical[1] * 0.9
     weapon.Recoil.Vertical[2] = weapon.Recoil.Vertical[2] * 0.9
     weapon.Primary.ClipSize = 30
+    weapon.Animations.Inspect = weapon.Animations.Inspect_smg
     weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 1.25
     weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 1.25
     weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 1.2

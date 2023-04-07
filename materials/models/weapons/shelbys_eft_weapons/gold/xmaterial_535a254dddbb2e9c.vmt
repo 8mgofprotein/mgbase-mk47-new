@@ -1,0 +1,31 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "models\weapons\shelbys_eft_weapons\gold\xmaterial_535a254dddbb2e9c_rgb"
+    "$bumpmap" "models\weapons\shelbys_eft_weapons\xmaterial_535a254dddbb2e9c_n"
+    "$phongexponenttexture" "models\weapons\shelbys_eft_weapons\xmaterial_535a254dddbb2e9c_e"
+
+"$color2" "[ .1 .1 .1 ]"
+	"$blendtintbybasealpha" "0"
+	"$phong" "1"
+	"$phongboost" "3"
+	"$phongexponent" "20"
+	"$phongalbedotint" "0"
+	"$PhongFresnelRanges" "[ 2 4 6 ]"
+	"$basemapalphaenvmapmask" "1"
+	"$phongtint" "[2.1 1.3 0.4]"
+"$envmap"                    "env_cubemap"
+    "$envmapfresnel" "0.4"
+    "$envmaptint" "[ 0.65 0.45 0.105 ]"
+
+    "Proxies"
+    {
+        "MwEnvMapTint"
+        {
+            "color"    "[0.325 0.225 0.0525]"
+            "envmap"    "viper/shared/envmaps/painted_silver.hdr"
+            "min" "0"
+            "max" "3"
+    }
+}
