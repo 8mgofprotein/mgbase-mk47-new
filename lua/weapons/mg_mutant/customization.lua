@@ -22,7 +22,7 @@ end
 SWEP.Customization = {
     {"att_perk", "attachment_vm_ar_mkmutant_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_headshot", "att_perk_fastswap", "att_perk_rof"}, 
 
-    {"attachment_vm_ar_mutant_barrel", "attachment_vm_ar_mutant_lgtguard", "attachment_vm_ar_mutant_minibar", "attachment_vm_ar_mutant_dmrsil", "attachment_vm_ar_mutant_barsil", "attachment_vm_ar_mutant_barshort", "attachment_vm_ar_mutant_barlight", "attachment_vm_ar_mutant_carbine", "attachment_vm_ar_mutant_hbar"},
+    {"attachment_vm_ar_mutant_barrel", "attachment_vm_ar_mutant_classic", "attachment_vm_ar_mutant_lgtguard", "attachment_vm_ar_mutant_minibar", "attachment_vm_ar_mutant_dmrsil", "attachment_vm_ar_mutant_barsil", "attachment_vm_ar_mutant_barshort", "attachment_vm_ar_mutant_barlight", "attachment_vm_ar_mutant_carbine", "attachment_vm_ar_mutant_hbar"},
 
     {"attachment_vm_ar_mutant_stock", "attachment_vm_ar_mutant_stock_ctr", "attachment_vm_ar_mutant_stock_prs", "attachment_vm_ar_mike4_stock", "attachment_vm_ar_mike4_stock_v2", "attachment_vm_ar_mike4_stock_v27", "attachment_vm_ar_mike4_stock_v15","attachment_vm_ar_mike4_customstock", "attachment_vm_ar_mike4_stockno", "att_vm_stock_heavy01", 
     "att_vm_stock_heavy02", "att_vm_stock_light01", "att_vm_stock_medium01", "wp_330_ts", "wp_ak12", "wp_bcm_stock", "wp_ds150", "wp_emod", "wp_gl_core", "wp_m4ss", "wp_prs", "wp_sba3", "wp_ubr" },
@@ -35,9 +35,9 @@ SWEP.Customization = {
 	"attachment_vm_ar_mutant_xmags", "attachment_vm_ar_mutant_xmagslrg", "attachment_vm_ar_mutant_dmag50",
 	"attachment_vm_ar_mutant_xmagslrg60casket","attachment_vm_ar_galima_smag","attachment_vm_ar_galima_xmag" },	
 
-    {"att_skin_mutant", "attachment_vm_ar_mutant_twotone", "attachment_vm_ar_mutant_desert_skin", "attachment_vm_ar_mutant_polya_skin", "attachment_vm_ar_mutant_redtopo_skin", "attachment_vm_ar_mutant_strikerred_skin",  "attachment_vm_ar_mutant_plat_skin", "attachment_vm_ar_mutant_nebula_skin", "attachment_vm_ar_mutant_lava_skin", "attachment_vm_ar_mutant_mwgold_skin", "attachment_vm_ar_mutant_rainbow_skin"},  
+    {"att_skin_mutant", "attachment_vm_ar_mutant_retro", "attachment_vm_ar_mutant_twotone", "attachment_vm_ar_mutant_desert_skin", "attachment_vm_ar_mutant_polya_skin", "attachment_vm_ar_mutant_redtopo_skin", "attachment_vm_ar_mutant_strikerred_skin",  "attachment_vm_ar_mutant_plat_skin", "attachment_vm_ar_mutant_nebula_skin", "attachment_vm_ar_mutant_lava_skin", "attachment_vm_ar_mutant_mwgold_skin", "attachment_vm_ar_mutant_rainbow_skin"},  
    
-    {"att_bolt", "attachment_vm_ar_mutant_manualbolt"}, 
+    {"att_mkbolt", "attachment_vm_ar_mutant_manualbolt"}, 
 
     {"att_muzzle", "att_vm_breacher01", "att_vm_breacher02", "att_vm_compensator01", 
     "att_vm_compensator02", "att_vm_flashhider01", "att_vm_flashhider02", 
