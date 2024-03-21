@@ -396,8 +396,6 @@ $bonemerge "tag_stock_attach"
 $bonemerge "tag_laser_attach"
 $bonemerge "j_hybrid_scope"
 $bonemerge "j_magnifier_lever"
-$bonemerge "tag_glass_ads2"
-$bonemerge "tag_glass_hip2"
 $bonemerge "tag_thermal"
 $bonemerge "tag_laser_attach"
 $bonemerge "j_mag1"
@@ -2254,7 +2252,7 @@ $sequence "sprint_out" {
 	"v_mutant_anims/idle.smd"
 	fadein 0.2
 	fadeout 0.2
-	addlayer "a_jog_to_walk"
+	addlayer "a_sprint_to_walk"
 	addlayer "jog_loop"
 	addlayer "jog_offset"
 	addlayer "walk_loop"
@@ -2267,8 +2265,8 @@ $sequence "sprint_out" {
 	addlayer "grip_vert_pro_offset"
 	addlayer "hybrid_offset"
 	fps 1.25
-	ikrule "rhand" touch "tag_sling" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0   
-	ikrule "lhand" touch "tag_ik_loc_le" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1   
+	ikrule rhand touch "tag_sling" usesource
+    ikrule lhand touch "tag_ik_loc_le" usesource   
 }
 
 $sequence "sprint_offset" {
